@@ -5,7 +5,89 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Patricio Villarreal</title>
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
+  <style>
+    /* General Styles */
+    body {
+      background-color: #0f0f0f;
+      color: #ffffff;
+      font-family: 'Roboto Mono', monospace;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+    }
+
+    /* Header */
+    header {
+      background: linear-gradient(90deg, #ff0099, #00ccff);
+      text-align: center;
+      padding: 20px 10px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin: 0;
+    }
+
+    .highlight {
+      color: #ffcc00;
+      text-shadow: 0 0 8px #ffcc00, 0 0 15px #ffcc00;
+    }
+
+    /* Section Styles */
+    section {
+      padding: 20px;
+      margin: 20px auto;
+      max-width: 900px;
+      border: 2px solid #222222;
+      border-radius: 10px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+    }
+
+    section h2 {
+      color: #00ccff;
+      text-shadow: 0 0 8px #00ccff, 0 0 15px #00ccff;
+      font-size: 1.8rem;
+      margin-bottom: 15px;
+    }
+
+    .skills-list {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .skills-list div {
+      width: 30%;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    li {
+      margin: 5px 0;
+      color: #ffffff;
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      background: #222222;
+      padding: 15px;
+      border-top: 2px solid #ff0099;
+      color: #888888;
+    }
+
+    footer a {
+      color: #00ccff;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      color: #ff0099;
+    }
+  </style>
 </head>
 <body>
   <header>
@@ -65,85 +147,4 @@
   </footer>
 </body>
 </html>
-/* General Styles */
-body {
-  background-color: #0f0f0f;
-  color: #ffffff;
-  font-family: 'Roboto Mono', monospace;
-  margin: 0;
-  padding: 0;
-  line-height: 1.6;
-}
-
-/* Header */
-header {
-  background: linear-gradient(90deg, #ff0099, #00ccff);
-  text-align: center;
-  padding: 20px 10px;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
-}
-
-header h1 {
-  font-size: 2.5rem;
-  margin: 0;
-}
-
-.highlight {
-  color: #ffcc00;
-  text-shadow: 0 0 8px #ffcc00, 0 0 15px #ffcc00;
-}
-
-/* Section Styles */
-section {
-  padding: 20px;
-  margin: 20px auto;
-  max-width: 900px;
-  border: 2px solid #222222;
-  border-radius: 10px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
-}
-
-section h2 {
-  color: #00ccff;
-  text-shadow: 0 0 8px #00ccff, 0 0 15px #00ccff;
-  font-size: 1.8rem;
-  margin-bottom: 15px;
-}
-
-.skills-list {
-  display: flex;
-  justify-content: space-between;
-}
-
-.skills-list div {
-  width: 30%;
-}
-
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-li {
-  margin: 5px 0;
-  color: #ffffff;
-}
-
-/* Footer */
-footer {
-  text-align: center;
-  background: #222222;
-  padding: 15px;
-  border-top: 2px solid #ff0099;
-  color: #888888;
-}
-
-footer a {
-  color: #00ccff;
-  text-decoration: none;
-}
-
-footer a:hover {
-  color: #ff0099;
-}
 
