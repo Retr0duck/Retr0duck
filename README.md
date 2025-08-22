@@ -76,9 +76,8 @@
 
 <p align="center">
   <a href="https://github.com/Retr0duck" target="_blank"><img src="https://img.shields.io/badge/GitHub-232323?style=for-the-badge&logo=github" /></a>
-  <a href="YOUR_LINKEDIN_URL" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-232323?style=for-the-badge&logo=linkedin&logoColor=00fff7" /></a>
-  <a href="YOUR_TWITTER_URL" target="_blank"><img src="https://img.shields.io/badge/Twitter-232323?style=for-the-badge&logo=twitter&logoColor=FF00C8" /></a>
-  <a href="YOUR_PERSONAL_WEBSITE" target="_blank"><img src="https://img.shields.io/badge/Portfolio-232323?style=for-the-badge&logoColor=FFF200" /></a>
+  <a href="https://www.linkedin.com/in/patricio-villarreal-jimenez-276a412a1/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-232323?style=for-the-badge&logo=linkedin&logoColor=00fff7" /></a>
+ 
 </p>
 
 ---
